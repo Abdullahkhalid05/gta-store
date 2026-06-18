@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X, Leaf } from "lucide-react";
+import Image from "next/image";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -27,8 +28,8 @@ export default function Navbar() {
               <Leaf className="w-5 h-5 text-white" />
             </div>
             <div className="leading-tight">
-              <p className="text-white font-bold text-sm tracking-wide">GTA Fresh</p>
-              <p className="text-brand-fresh text-xs font-medium tracking-widest uppercase">Direct</p>
+              <p className="text-white font-bold text-sm tracking-wide">Nature Grow</p>
+              <p className="text-brand-fresh text-[6px] font-medium tracking-widest uppercase">Wholesales Fresh Products</p>
             </div>
           </Link>
 
