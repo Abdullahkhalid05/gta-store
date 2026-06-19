@@ -34,7 +34,7 @@ const categories = [
 
 export default function ProductCategories() {
   return (
-    <section className="py-20 bg-green-100">
+    <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -85,7 +85,7 @@ export default function ProductCategories() {
                   <h3 className="text-lg font-semibold text-brand-text">
                     {category.title}
                   </h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
+                  <p className="text-muted-foreground font-medium text-sm leading-relaxed">
                     {category.description}
                   </p>
                   <span className="inline-flex items-center gap-1.5 text-brand-fresh text-sm font-semibold mt-2 group-hover:gap-2.5 transition-all duration-200">
