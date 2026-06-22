@@ -22,14 +22,24 @@ export default function Navbar() {
     <header className="w-full bg-brand-dark sticky top-0 z-50 shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="bg-brand-fresh p-1.5 rounded-md">
-              <Leaf className="w-5 h-5 text-white" />
+            <div className="relative w-12 h-12 shrink-0">
+              <Image
+                src="/images/logo-Head.png"
+                alt="Nature Grow logo"
+                fill
+                priority
+                quality={80}
+                className="object-contain"
+              />
             </div>
             <div className="leading-tight">
-              <p className="text-white font-bold text-sm tracking-wide">Nature Grow</p>
-              <p className="text-brand-fresh text-[6px] font-medium tracking-widest uppercase">Wholesales Fresh Products</p>
+              <p className="text-white font-bold text-sm tracking-wide">
+                Nature Grow
+              </p>
+              <p className="text-brand-fresh text-[6px] font-medium tracking-widest uppercase">
+                Wholesales Fresh Products
+              </p>
             </div>
           </Link>
 

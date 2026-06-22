@@ -17,13 +17,13 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "GTA Fresh Direct | Fresh Produce Delivered Across the GTA",
+  title: "Nature's Grown | Fresh Produce Delivered Across the GTA",
   description:
-    "GTA Fresh Direct supplies fresh fruits, vegetables, and herbs to restaurants, grocery stores, hotels, and food-service businesses across the Greater Toronto Area.",
+    "Nature's Grown supplies fresh fruits, vegetables, and herbs to restaurants, grocery stores, hotels, and food-service businesses across the Greater Toronto Area.",
   keywords:
     "fresh produce GTA, wholesale fruits vegetables Toronto, B2B produce supplier Ontario, restaurant food supply GTA",
   openGraph: {
-    title: "GTA Fresh Direct | Fresh Produce Delivered Across the GTA",
+    title: "Nature's Grown | Fresh Produce Delivered Across the GTA",
     description:
       "Supplying fresh produce to restaurants, grocery stores and hotels across the GTA.",
     type: "website",

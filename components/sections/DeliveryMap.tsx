@@ -69,8 +69,8 @@ export default function DeliveryMap() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: -30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
             className="relative rounded-xl overflow-hidden shadow-lg lg:mt-12 border-2 border-brand-fresh h-[350px] lg:h-[430px]"

@@ -29,10 +29,14 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-2 bg-brand-fresh/20 border border-brand-fresh/30 text-white text-xs font-semibold px-4 py-2 rounded-full w-fit"
+            className="inline-flex items-center gap-2 bg-brand-fresh/20 border border-brand-fresh/30 text-white font-semibold rounded-full w-fit
+             text-[10px] px-2 py-1 sm:text-xs sm:px-4 sm:py-2"
           >
-            <span className="w-2 text-white h-2 bg-brand-fresh rounded-full animate-pulse" />
-            Ontario Food Terminal GTA's Trusted Produce Supplier
+            <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-brand-fresh rounded-full animate-pulse shrink-0" />
+
+            <span className="whitespace-nowrap">
+              Ontario Food Terminal · GTA Trusted Supplier
+            </span>
           </motion.div>
 
           <motion.h1
@@ -98,8 +102,6 @@ export default function Hero() {
           </motion.div>
         </div>
       </div>
-
-      {/* <div className="absolute bottom-0 left-0 right-0 h-10 bg-gradient-to-t from-background to-transparent" /> */}
     </section>
   );
 }
