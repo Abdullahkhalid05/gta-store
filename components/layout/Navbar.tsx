@@ -25,7 +25,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2 group">
             <div className="relative w-12 h-12 shrink-0">
               <Image
-                src="/images/logo-Head.png"
+                src="/images/main.png"
                 alt="Nature Grow logo"
                 fill
                 priority
@@ -35,7 +35,7 @@ export default function Navbar() {
             </div>
             <div className="leading-tight">
               <p className="text-white font-bold text-sm tracking-wide">
-                Nature Grow
+                Nature's Grown
               </p>
               <p className="text-brand-fresh text-[6px] font-medium tracking-widest uppercase">
                 Wholesales Fresh Products

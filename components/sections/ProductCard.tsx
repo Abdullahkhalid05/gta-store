@@ -35,7 +35,7 @@ export default function ProductCard({ product }: { product: Product }) {
         </div>
 
         <button className="mt-auto bg-brand-fresh hover:bg-green-500 text-white text-xs sm:text-sm font-semibold py-1.5 sm:py-2.5 rounded-md transition-colors duration-200 w-fit sm:w-full px-4 sm:px-0">
-          Add to Cart
+          Request a Quote
         </button>
       </div>
     </div>
