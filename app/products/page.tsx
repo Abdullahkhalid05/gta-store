@@ -17,7 +17,7 @@ export default function ProductsPage() {
   return (
     <main className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex gap-3 justify-center mb-12">
+        {/* <div className="flex flex-wrap gap-3 justify-center mb-12">
           {categories.map((cat) => (
             <button
               key={cat}
@@ -31,6 +31,23 @@ export default function ProductsPage() {
               {cat}
             </button>
           ))}
+        </div> */}
+        <div className="sticky top-16 z-30 bg-white/95 backdrop-blur-sm border-b border-border py-4 mb-8 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+          <div className="flex flex-wrap gap-3 justify-center">
+            {categories.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => setSelected(cat)}
+                className={`px-5 py-2 rounded-full text-sm font-medium border-2 transition-colors capitalize ${
+                  selected === cat
+                    ? "bg-brand-fresh text-white border-brand-fresh"
+                    : "bg-white text-brand-text border-border hover:border-brand-fresh"
+                }`}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
         </div>
 
         {filteredProducts.length === 0 ? (
