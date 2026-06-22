@@ -25,7 +25,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2 group">
             <div className="relative w-12 h-12 shrink-0">
               <Image
-                src="/images/main.png"
+                src="/images/glow.png"
                 alt="Nature Grow logo"
                 fill
                 priority
