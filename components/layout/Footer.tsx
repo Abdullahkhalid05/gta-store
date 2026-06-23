@@ -39,7 +39,7 @@ export default function Footer() {
               Supplying fresh, locally sourced produce from the Ontario Food Terminal to restaurants, grocery stores, and food-service businesses across the GTA.
             </p>
             <a
-              href="https://wa.me/11234567890"
+              href="https://wa.me/16479937556"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white text-sm font-semibold px-4 py-2 rounded-md transition-colors w-fit"
