@@ -62,46 +62,27 @@ export default function Hero() {
             directly from the Ontario Food Terminal.
           </motion.p>
 
-          {/* <motion.div
+          
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex flex-col sm:flex-row gap-4"
+            className="flex flex-row gap-3 sm:gap-4"
           >
             <Link
               href="/request-quote"
-              className="inline-flex items-center justify-center gap-2 bg-brand-fresh hover:bg-green-700 text-white font-semibold px-8 py-4 rounded-md transition-all duration-200 hover:scale-105 hover:shadow-sm hover:shadow-brand-fresh/30"
+              className="inline-flex items-center justify-center gap-2 bg-brand-fresh hover:bg-green-700 text-white font-semibold px-4 sm:px-8 py-3 sm:py-4 text-sm sm:text-base rounded-md transition-all duration-200 hover:scale-105 hover:shadow-sm hover:shadow-brand-fresh/30"
             >
               Request a Quote
               <ArrowRight className="w-4 h-4" />
             </Link>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold px-8 py-4 rounded-md transition-all duration-200 backdrop-blur-sm"
+              className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold px-4 sm:px-8 py-3 sm:py-4 text-sm sm:text-base rounded-md transition-all duration-200 backdrop-blur-sm"
             >
               Contact Sales
             </Link>
-          </motion.div> */}
-          <motion.div
-  initial={{ opacity: 0, y: 30 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.6, delay: 0.3 }}
-  className="flex flex-row gap-3 sm:gap-4"
->
-  <Link
-    href="/request-quote"
-    className="inline-flex items-center justify-center gap-2 bg-brand-fresh hover:bg-green-700 text-white font-semibold px-4 sm:px-8 py-3 sm:py-4 text-sm sm:text-base rounded-md transition-all duration-200 hover:scale-105 hover:shadow-sm hover:shadow-brand-fresh/30"
-  >
-    Request a Quote
-    <ArrowRight className="w-4 h-4" />
-  </Link>
-  <Link
-    href="/contact"
-    className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold px-4 sm:px-8 py-3 sm:py-4 text-sm sm:text-base rounded-md transition-all duration-200 backdrop-blur-sm"
-  >
-    Contact Sales
-  </Link>
-</motion.div>
+          </motion.div>
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}

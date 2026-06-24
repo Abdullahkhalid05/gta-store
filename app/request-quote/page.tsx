@@ -194,7 +194,6 @@ export default function RequestQuotePage() {
               : "Submit Quote Request"}
           </button>
 
-          {/* Messages */}
           {status === "success" && (
             <p className="text-green-600 text-sm">
               Request submitted successfully.
