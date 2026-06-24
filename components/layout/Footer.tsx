@@ -95,15 +95,15 @@ export default function Footer() {
             <ul className="flex flex-col gap-3">
               <li className="flex items-start gap-3">
                 <Phone className="w-4 h-4 text-brand-fresh mt-0.5 shrink-0" />
-                <span className="text-white/60 text-sm">+1 (416) 555-0192</span>
+                <span className="text-white/60 text-sm">+1647-993-7556</span>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="w-4 h-4 text-brand-fresh mt-0.5 shrink-0" />
-                <span className="text-white/60 text-sm">info@gtafreshdirect.ca</span>
+                <span className="text-white/60 text-sm">naturesgrown.ca@gmail.com</span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-brand-fresh mt-0.5 shrink-0" />
-                <span className="text-white/60 text-sm">Ontario Food Terminal, Toronto, ON</span>
+                <span className="text-white/60 text-sm">30 topflight dr mississauga, ON L5SOA8</span>
               </li>
               <li className="flex items-start gap-3">
                 <Clock className="w-4 h-4 text-brand-fresh mt-0.5 shrink-0" />
