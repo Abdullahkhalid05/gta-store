@@ -23,9 +23,19 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="relative w-12 h-12 shrink-0">
+            {/* <div className="relative w-16 h-16 shrink-0">
               <Image
-                src="/images/glow.png"
+                src="/images/logo-main.png"
+                alt="Nature Grow logo"
+                fill
+                priority
+                quality={80}
+                className="object-contain"
+              />
+            </div> */}
+            <div className="relative w-16 h-16 shrink-0 lg:hidden">
+              <Image
+                src="/images/logo-main.png"
                 alt="Nature Grow logo"
                 fill
                 priority
@@ -33,6 +43,18 @@ export default function Navbar() {
                 className="object-contain"
               />
             </div>
+
+            <div className="relative hidden lg:block w-14 h-14 shrink-0">
+              <Image
+                src="/images/logo-head.png"
+                alt="Nature Grow logo"
+                fill
+                priority
+                quality={80}
+                className="object-contain"
+              />
+            </div>
+
             <div className="leading-tight">
               <p className="text-white font-bold text-sm tracking-wide">
                 Nature's Grown
