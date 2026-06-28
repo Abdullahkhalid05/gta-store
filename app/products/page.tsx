@@ -5,7 +5,7 @@ import { products } from "@/lib/Products";
 import ProductCard from "@/components/sections/ProductCard";
 import { Leaf } from "lucide-react";
 
-const categories = ["all", "fruits", "vegetables", "herbs", "specialty"];
+const categories = ["all", "fruits", "vegetables", "greens-salads", "nuts", "specialty", "organics"];
 
 export default function ProductsPage() {
   const [selected, setSelected] = useState("all");
