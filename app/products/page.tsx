@@ -29,6 +29,7 @@ export default function ProductsPage() {
     <main className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="sticky top-16 z-30 bg-white/95 backdrop-blur-sm border-b border-border py-4 mb-8 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+          {/* Search Bar */}
           <div className="relative max-w-md mx-auto mb-4">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
             <input
@@ -40,12 +41,13 @@ export default function ProductsPage() {
             />
           </div>
 
-          <div className="flex flex-wrap gap-3 justify-center">
+          {/* Category Pills - horizontal scroll on mobile, wrap on larger screens */}
+          <div className="flex gap-3 overflow-x-auto scrollbar-hide px-1 sm:flex-wrap sm:justify-center sm:overflow-visible">
             {categories.map((cat) => (
               <button
                 key={cat}
                 onClick={() => setSelected(cat)}
-                className={`px-5 py-2 rounded-full text-sm font-medium border-2 transition-colors capitalize ${
+                className={`shrink-0 px-5 py-2 rounded-full text-sm font-medium border-2 transition-colors capitalize whitespace-nowrap ${
                   selected === cat
                     ? "bg-brand-fresh text-white border-brand-fresh"
                     : "bg-white text-brand-text border-border hover:border-brand-fresh"
