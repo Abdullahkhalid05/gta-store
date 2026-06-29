@@ -39,18 +39,18 @@ export default function Navbar() {
                 alt="Nature Grow logo"
                 fill
                 priority
-                quality={80}
+                sizes="64px"
                 className="object-contain"
               />
             </div>
 
             <div className="relative hidden lg:block w-14 h-14 shrink-0">
               <Image
-                src="/images/logo-head.png"
+                src="/images/logo-Head.png"
                 alt="Nature Grow logo"
                 fill
                 priority
-                quality={80}
+                sizes="56px"
                 className="object-contain"
               />
             </div>
