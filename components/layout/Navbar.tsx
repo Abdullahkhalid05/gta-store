@@ -10,7 +10,6 @@ const navLinks = [
   { label: "About Us", href: "/about" },
   { label: "Products", href: "/products" },
   { label: "Restaurant Solutions", href: "/restaurant-solutions" },
-  { label: "Grocery Solutions", href: "/grocery-solutions" },
   { label: "Delivery Areas", href: "/delivery-areas" },
   { label: "Contact Us", href: "/contact" },
 ];
