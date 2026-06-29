@@ -535,7 +535,7 @@ export const products: Product[] = [
     id: "peeled-garlic",
     name: "Peeled Garlic",
     category: "specialty",
-    image: "/images/products/peeled-garlic.png",
+    image: "/images/products/Peeled-Garlic.png",
     description: "Pre-peeled garlic cloves, ready to use.",
     availability: "Year Round",
     packaging: ["6x3 case"],
