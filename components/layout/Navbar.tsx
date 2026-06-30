@@ -34,7 +34,7 @@ export default function Navbar() {
             </div> */}
             <div className="relative w-16 h-16 shrink-0 lg:hidden">
               <Image
-                src="/images/logo-main.png"
+                src="/images/final.png"
                 alt="Nature Grow logo"
                 fill
                 priority
